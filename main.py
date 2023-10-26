@@ -5,6 +5,7 @@ from callbacks_func import callback_func
 from main_functions import *
 from wish_functions import *
 from gia_functions import *
+from config import token_tg
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG
@@ -12,7 +13,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-TOKEN = '5278897343:AAEBgeolumHtyBqGv76Ekdb55jZAs66AS5U'
+TOKEN = token_tg
 
 
 def main():
